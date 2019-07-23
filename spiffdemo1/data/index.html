@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>BMSIT &mdash;  Welcome</title>
+
+<link rel="stylesheet" type="text/css" href="css/my-login.css">
+
+</head>
+
+<body class="my-login-page">
+	<section class="h-100">
+		<div class="container h-100" id="login">
+			<div class="row justify-content-md-center h-100">
+				<div class="card-wrapper">
+					<div class="brand" "center" >
+						<img src="img/logo.png" alt="logo">
+					</div>
+					<div class= "center">
+					<h3 class="card-title" position = "center">BMS Institute Of Technology
+					</h3>
+					</br>
+					</div>
+					<div class="card fat">
+						<div class="card-body">
+							<h4 class="card-title">SMART DOOR | Login</h4>
+							<form method="POST" class="my-login-validation" "grantAccess" novalidate="" onsubmit = "return grantAccess()">
+								<div class="form-group">
+									<label for="userid">User ID</label>
+
+									<input id="userid" type="text" class="form-control" name="userid" value="" required autofocus>
+
+								</div>
+
+								<div class="form-group">
+									<label for="passcode">Passcode</label>
+									<input id="passcode" type="password" class="form-control" name="passcode" required data-eye >
+
+								</div>
+
+
+
+								<div class="form-group m-0">
+
+									<button type="submit" class="btn btn-primary btn-block">
+										Unlock
+									</button>
+									</a>
+								</div>
+								<div class="mt-4 text-center">
+									Don't have an access?  Forgot Passcode? <a href="forgot.html">Get One</a>
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="footer">
+						Copyright &copy; 2019 &mdash; BMSIT
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<script src="js/my-login.js"></script>
+	<script src="js/grantAccess.js"></script>
+</body>
+</html>
